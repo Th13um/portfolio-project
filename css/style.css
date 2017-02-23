@@ -1,0 +1,129 @@
+body {
+ font-family: 'Raleway';
+}
+.row h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  line-height: 1;
+}
+
+/* Navigation */
+
+.navbar{
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+  color: #019dbc !important;
+  }
+
+/* Content */
+
+.bg-1{
+  background-color: #fff;
+  background-image: url("https://artwebbdesign.com/wp-content/uploads/revslider/web-product-light1/macbookpro.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 750px;
+  color: #019dbc;
+  text-shadow: 0 5 15px rgba(0, 0, 0, 0.4);
+  opacity: 1;
+}
+.header{
+  font-family: "Raleway";
+  text-align: left;
+  padding: 0 0 5% 10%;
+  margin-top: 50px;
+}
+.subHeader{
+  text-align: center;
+  padding-top: 5%;
+  margin-top: 150px;
+}
+.bg-2 {
+  background-image: url("http://hdwallpaperbackgrounds.net/wp-content/uploads/2016/11/Background-8.jpg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size:cover;
+  background-attachment: fixed;
+  color: #000;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+}
+
+.bg-3 {
+  background-color: #fff;
+  color: #000;
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  }
+
+/* Skill */
+.skill{
+  background-color: #fff;
+  max-height: 230px;
+}
+
+.skill h3{
+  color: #000;
+  margin-left: 60px;
+}
+.img-responsive{
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Gallery */
+
+.thumbnail {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  margin-top: 20px;
+  border-radius: 10px;
+
+}
+.thumbnail img{
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+
+}
+.btn{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+#portfolio{
+  margin-bottom: 30px;
+}
+
+/* Form */
+
+.contact{
+  Font-family: "Roboto";
+}
+.form-control{
+  border: 2px solid #019dbc;
+  border-radius: 10px;
+}
+.formBody{
+  margin-top: 15px;
+}
+/* Social*/
+
+.social a {
+  font-size: 30px;
+  margin: 10px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+.hideme
+{
+    opacity:0;
+}
