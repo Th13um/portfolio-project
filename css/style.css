@@ -29,14 +29,13 @@ body {
 
 .bg-1{
   background-color: #fff;
-  height: 650px;
   color: #019dbc;
   text-shadow: 0 5 15px rgba(0, 0, 0, 0.4);
   opacity: 1;
+  padding: 70px 0 0 0;
 }
-.bg-1 img{
+.macbook{
     max-width: 100%;
-    height: auto;
     margin: auto;
 }
 
@@ -44,7 +43,7 @@ body {
   font-family: "Raleway";
   text-align: left;
   padding: 0 0 5% 10%;
-  margin-top: 50px;
+  margin: 50px 0 1vh 0;
 }
 .subHeader{
   position: absolute;
@@ -68,15 +67,10 @@ body {
   color: #000;
 }
 
-.container-fluid {
-  padding-top: 70px;
-  padding-bottom: 70px;
-  }
 
 /* Skill */
 .skill{
   background-color: #fff;
-
 }
 
 .skill h3{

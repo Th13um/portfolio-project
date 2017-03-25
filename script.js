@@ -22,7 +22,7 @@ $(document).ready(function() {
 
 });
 
-$(".bg-1").next().height($(".bg-1").height())
+
 $(window).scroll(function() {
     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     if (scrollTop > 100) {
@@ -31,4 +31,4 @@ $(window).scroll(function() {
     else {
         $('div.bg-1').css('opacity',1-scrollTop/100);
     }
-}).scroll()
+});
