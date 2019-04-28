@@ -42,8 +42,8 @@ body {
 .macbook{
   position: relative;
   display: flex;
-    max-width: 100vh;
-    margin: auto;
+  max-width: 100%;
+  margin: auto;
 
 }
 
@@ -58,13 +58,31 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
+
+.cursor {
+  font-family: "Arial Black" ;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {from, to { color: transparent;}50% {color: #019dbc; }}
+@-moz-keyframes blink {from, to { color: transparent;}50% {color: #019dbc; }}
+@-webkit-keyframes "blink" {from, to { color: transparent;}50% {color: #019dbc; }}
+@-ms-keyframes "blink" {from, to { color: transparent;}50% {color: #019dbc; }}
+@-o-keyframes "blink" {from, to { color: transparent;}50% {color: #019dbc; }}
+
+
 .bg-2 {
   background-color: #019dbc; /* For browsers that do not support gradients */
   background-image: radial-gradient(circle, #019dbc, #fff);
   color: #000;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  margin-bottom: 60px;
+  box-shadow: 0px 70px 40px -50px rgba(0, 0, 0, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1);
 }
 
 .bg-3 {
@@ -85,24 +103,30 @@ body {
 }
 .img-responsive{
   margin: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 8px;
+  border-style: none;
+  -webkit-font-smoothing: antialiased;
+  box-shadow: 0px 70px 40px -50px rgba(0, 0, 0, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* Gallery */
 
 .thumbnail {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 70px 40px -50px rgba(0, 0, 0, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
   border-radius: 10px;
-
+  border-style: none;
 }
 .thumbnail img{
+  border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 
 }
 .btn{
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 70px 40px -50px rgba(0, 0, 0, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 10px;
 }
 #portfolio{
   margin-bottom: 30px;
@@ -114,26 +138,51 @@ body {
   Font-family: "Roboto";
 }
 .form-control{
-  border: 2px solid #019dbc;
+  border: 2px solid rgba(0, 157, 188, 0.8);
   border-radius: 10px;
 }
 .formBody{
   margin-top: 15px;
 }
+
+.send{
+  margin-top: 40px;
+  margin-left: 7px;
+}
+
+.send button{
+  margin-left: -15px;
+  background-color: #019dbc;
+  color: #fff;
+  font-size: 2em;
+  box-shadow: 0px 30px 20px -10px rgba(0, 0, 0, 0.2), 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.mail-icon {
+    background: white;
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    margin-left: -33px;
+    margin-top: -33px;
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+.mail-icon i{
+  color: #019dbc;
+  font-size: 30px;
+}
 /* Social*/
 
 .social a {
-  font-size: 30px;
-  margin: 10px;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  font-size: 40px;
+  padding: 10px;
+  text-shadow: 0px 30px 20px -10px rgba(0, 0, 0, 0.2), 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 .hideme
 {
     opacity:0;
-}
-
-@media only screen and (min-width: 800px){
-  .macbook{
-    max-width: 100%;
-  }
 }
