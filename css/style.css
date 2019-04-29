@@ -43,6 +43,7 @@ body {
   position: relative;
   display: flex;
   max-width: 100%;
+  max-height: 400px;
   margin: auto;
 
 }
@@ -157,6 +158,15 @@ body {
   font-size: 2em;
   box-shadow: 0px 30px 20px -10px rgba(0, 0, 0, 0.2), 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
+.send button:hover{
+  margin-left: -15px;
+  background-color: #fff;
+  color: #019dbc;
+  border: 2px solid  #019dbc;
+  font-size: 2em;
+  box-shadow: 0px 30px 20px -10px rgba(0, 0, 0, 0.2), 0px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
 .mail-icon {
     background: white;
     width: 50px;

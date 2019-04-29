@@ -10,8 +10,10 @@
       <link rel="stylesheet" href="css/style.css">
       <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -60,19 +62,19 @@
 
     <!-- Competence section -->
 
-    <div class="container skill groove hideme" id="skill">
+    <div class="container skill groove" id="skill">
       <div class="row">
         <div class="col-xs-12 ">
           <h3>...Learning some stuff...</h3>
         </div>
         <div class="container-fluid">
           <div class="row">
-            <div class="col-12 text-center">
-              <img src="images/logo-html.jpg" alt="html logo" class="img-responsive img-thumbnail">
-              <img src="images/logo-css.jpg" alt="css logo" class="img-responsive img-thumbnail">
-              <img src="images/logo-JS.jpg" alt="JavaScript logo" class="img-responsive img-thumbnail">
-              <img src="images/logo-bootstrap.jpg" alt="bootstrap logo" class="img-responsive img-thumbnail">
-              <img src="images/logo-jquery.jpg" alt="jquery logo" class="img-responsive img-thumbnail">
+            <div class="col-12 text-center" >
+              <img src="images/logo-html.jpg" alt="html logo" class="img-responsive img-thumbnail" data-aos="fade-right" data-aos-easing="ease-out-back"data-aos-duration="1000" data-aos-delay="1250">
+              <img src="images/logo-css.jpg" alt="css logo" class="img-responsive img-thumbnail" data-aos="fade-right" data-aos-easing="ease-out-back"data-aos-duration="1000" data-aos-delay="1000">
+              <img src="images/logo-JS.jpg" alt="JavaScript logo" class="img-responsive img-thumbnail" data-aos="fade-right" data-aos-easing="ease-out-back"data-aos-duration="1000" data-aos-delay="750">
+              <img src="images/logo-bootstrap.jpg" alt="bootstrap logo" class="img-responsive img-thumbnail" data-aos="fade-right" data-aos-easing="ease-out-back"data-aos-duration="1000" data-aos-delay="500">
+              <img src="images/logo-jquery.jpg" alt="jquery logo" class="img-responsive img-thumbnail" data-aos="fade-right" data-aos-easing="ease-out-back"data-aos-duration="1000" data-aos-delay="250">
             </div>
           </div>
         </div>
@@ -167,5 +169,6 @@
 </div>
 
   <script src="script.js"></script>
+  <script> AOS.init();</script>
 </body>
 </html>
