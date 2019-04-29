@@ -151,6 +151,16 @@ body {
   margin-left: 7px;
 }
 
+.send button:hover .mail-icon {
+  transform: translate(75%, 20%);
+  background-color: #019dbc;
+}
+
+.send button:hover .mail-icon i{
+  color: #fff;
+  font-size: 30px;
+}
+
 .send button{
   margin-left: -15px;
   background-color: #019dbc;
@@ -181,10 +191,12 @@ body {
     -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
+
 .mail-icon i{
   color: #019dbc;
   font-size: 30px;
 }
+
 /* Social*/
 
 .social a {
