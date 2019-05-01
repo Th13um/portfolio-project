@@ -38,6 +38,11 @@ body {
   padding: 70px 0 0 0;
 }
 
+.arrow{
+  padding: 0;
+  margin:0;
+}
+
 .macbook {
   position: relative;
   display: flex;
@@ -243,7 +248,8 @@ body {
 }
 
 .mail-icon {
-  background: #fff;
+  background: #fae596;
+  color: #3fb0ac;
   width: 50px;
   height: 50px;
   padding: 8px;
@@ -262,7 +268,7 @@ body {
   font-size: 30px;
 }
 
-.send button:hover .mail-icon {
+.send .btn:hover .mail-icon {
   background-color: #3fb0ac;
   color: #fae596;
   transform: translate(75%, 10%) rotate(360deg);

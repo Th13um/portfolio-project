@@ -1,6 +1,6 @@
-$(document).ready(function() {
+$(document).ready(function () {
   /* Every time the window is scrolled ... */
-  $(window).scroll(function() {
+  $(window).scroll(function () {
     /* Check the location of each desired element */
     $('.hideme').each(function(i) {
       var bottomOfObject = $(this).offset().top + (($(this).height()) * 20 / 100);
@@ -16,7 +16,7 @@ $(document).ready(function() {
 });
 
 
-$(window).scroll(function() {
+$(window).scroll(function () {
   var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
   if (scrollTop > 100) {
     $('div.bg-1').css('opacity', 0);
