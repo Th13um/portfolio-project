@@ -34,8 +34,15 @@ body {
 /* Content */
 .bg-1 {
   color: #3fb0ac;
-  opacity: 1;
   padding: 70px 0 0 0;
+}
+
+.bis{
+  background-image: url("../images/poulpe.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  animation: shake 0.7s;
 }
 
 .arrow{
@@ -284,8 +291,4 @@ body {
 .social a {
   font-size: 40px;
   padding: 10px;
-}
-
-.hideme {
-  opacity: 0;
 }

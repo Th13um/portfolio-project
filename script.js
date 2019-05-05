@@ -1,26 +1,16 @@
-$(document).ready(function () {
-  /* Every time the window is scrolled ... */
-  $(window).scroll(function () {
-    /* Check the location of each desired element */
-    $('.hideme').each(function(i) {
-      var bottomOfObject = $(this).offset().top + (($(this).height()) * 20 / 100);
-      var bottomOfWindow = $(window).scrollTop() + $(window).height();
-      /* If the object is completely visible in the window, fade it it */
-      if (bottomOfWindow > bottomOfObject) {
-        $(this).animate({
-          'opacity': '1'
-        }, 1000);
-      }
-    });
-  });
-});
-
+// change first background on scroll
 
 $(window).scroll(function () {
   var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+// when you scroll down
   if (scrollTop > 100) {
-    $('div.bg-1').css('opacity', 0);
+//mask the macbook image
+    $('div.wall').css('opacity', 0);
+// and show the octopus
+    $('div.bg-1').addClass('bis');
   } else {
-    $('div.bg-1').css('opacity', 1 - scrollTop / 100);
+//reverse if you scroll up
+    $('div.wall').css('opacity', 1 - scrollTop / 100);
+    $('div.bg-1').removeClass('bis');
   }
 });
